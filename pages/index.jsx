@@ -10,7 +10,7 @@ export default function Home() {
 				<title>Home</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
-			<Navbar />
+			<Navbar curr={'Home'} />
 			<div className="md:flex md:flex-row md:py-20 md:gap-x-20 md:justify-center">
 				<div className="text-center rounded-full">
 					{/* <h1 className=" text-6xl text-white text-center">Hello world</h1> */}
