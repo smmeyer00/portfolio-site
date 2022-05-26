@@ -11,8 +11,8 @@ export default function Home() {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<Navbar curr={'Home'} />
-			<div className="md:flex md:flex-row md:py-20 md:gap-x-20 md:justify-center">
-				<div className="text-center rounded-full">
+			<div className="lg:flex lg:flex-row lg:py-36 lg:gap-x-20 lg:justify-center">
+				<div className="pt-7 text-center rounded-full">
 					{/* <h1 className=" text-6xl text-white text-center">Hello world</h1> */}
 					<Image
 						className="bg-gray-500 rounded-full"

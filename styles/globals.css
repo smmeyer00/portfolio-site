@@ -1,7 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html {
     background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 16px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(107 114 128);
+    /* color of the scroll thumb */
+    border-radius: 6px;
+    /* roundness of the scroll thumb */
+    border: 3px solid black;
 }
